@@ -1,19 +1,18 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    
     padding:0;
     margin: 0;
-    }
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221202/pngtree-excuses-word-handwritten-on-black-chalkboard-exercising-forgiveness-message-photo-image_15433004.jpg");
+    background-repeat:unset;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+        }
 
 #excuse{
     font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
-    justify-content: center;
-    margin: 50px;
-    
+    font-family:'Times New Roman', Times, serif;  
     }
-
-div{
-    display:none;
-}
