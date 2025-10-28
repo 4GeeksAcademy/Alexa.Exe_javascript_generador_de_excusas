@@ -21,8 +21,9 @@ let randomWho = who[Math.floor(Math.random()*who.length)];
 let randomAction = action[Math.floor(Math.random()*action.length)];
 let randomWhat = what[Math.floor(Math.random()*what.length)];
 let randomWhen = when[Math.floor(Math.random()*when.length)];
+
 let excuse =`OMG you will not believe me but...${randomWho} ${randomAction} ${randomWhat} ${randomWhen}`;
-//usamos los acentos "graves" para concatenar la variable excuse...
+//usamos los acentos "graves" para concatenar la variable excuse...funciona también de la manera tradicional pero así se escribe menos ...
 
 //imprimos la última funcion creada...
 console.log(excuse);
